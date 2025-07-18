@@ -1,0 +1,32 @@
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+    display: flex;
+     
+
+}
+#counter{
+    background-color: rgb(208, 208, 20);
+    border: 2px solid brown;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin: 30px;
+    display: flex;
+    
+justify-content: center;
+
+}
+.buttons{
+    background-color: brown;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    padding: 30px 50px;
+    font-size: larger;
+    margin-top: 50px;
+    display: flex;
+     justify-content: center;
+}
+
