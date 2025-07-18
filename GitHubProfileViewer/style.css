@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 2rem;
+}
+
+input {
+  padding: 0.5rem;
+  width: 250px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin-left: 10px;
+}
+
+#profile {
+  margin-top: 2rem;
+}
+
+img {
+  border-radius: 50%;
+}
