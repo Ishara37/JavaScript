@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>💰 Expense Tracker</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>💰 Expense Tracker</h1>
+
+    <form id="expenseForm" class="form">
+      <input type="text" id="title" placeholder="Expense Title" required />
+      <input type="number" id="amount" placeholder="Amount ($)" required />
+      <select id="category" required>
+        <option value="" disabled selected>Select Category</option>
+        <option value="Food">🍔 Food</option>
+        <option value="Rent">🏠 Rent</option>
+        <option value="Travel">🚗 Travel</option>
+        <option value="Bills">📄 Bills</option>
+        <option value="Other">📦 Other</option>
+      </select>
+      <input type="date" id="date" required />
+      <button type="submit">Add Expense</button>
+    </form>
+
+    <div class="filter-section">
+      <label for="filterCategory">📂 Filter:</label>
+      <select id="filterCategory">
+        <option value="All">All</option>
+        <option value="Food">Food</option>
+        <option value="Rent">Rent</option>
+        <option value="Travel">Travel</option>
+        <option value="Bills">Bills</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+
+    <ul id="expenseList" class="expense-list"></ul>
+
+    <div class="total">
+      <strong>Total:</strong> $<span id="total">0</span>
+    </div>
+  </div>
+  <button id="clearAllBtn">Clear All Expenses</button>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
